@@ -2,15 +2,10 @@
 
 .footer-items {
   display: flex;
-
   align-items: center;
   flex-direction: column;
-  height: auto;
+  height: 6rem;
   background-color: silver;
-  max-width: 100%;
-  padding: 1rem;
-  left: 0;
-  bottom: 0;
   width: 100%;
 }
 .social-media-links {
