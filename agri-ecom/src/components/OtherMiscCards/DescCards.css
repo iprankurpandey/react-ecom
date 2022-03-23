@@ -1,0 +1,52 @@
+@import url("https://agri-component.netlify.app/css/components.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.featured-catagories {
+  font-weight: 800;
+  text-align: center;
+  margin: 3rem;
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+.catagory-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 3rem;
+}
+
+.first-catagory {
+  background-image: url("https://i.ibb.co/jWQ5jYh/crop.jpg");
+  background-size: cover;
+}
+.second-catagory {
+  background-image: url("https://i.ibb.co/8dVYtJ7/vscode.png");
+  background-size: cover;
+}
+.third-catagory {
+  background-image: url("https://i.ibb.co/Zxxg78R/icons8-api-100.png");
+  background-size: cover;
+}
+.fourth-catagory {
+  background-image: url("https://i.ibb.co/tHM0CvL/dsa.png");
+  background-size: cover;
+}
+.box {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-style: italic;
+}
