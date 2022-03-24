@@ -10,7 +10,9 @@
 /coverage
 
 # production
-/backend
+<<<<<<< HEAD
+.backend
+
 
 # misc
 .DS_Store
