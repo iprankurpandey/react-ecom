@@ -31,13 +31,16 @@ function Header() {
         </div>
 
         <div className="right-side-panel">
-          <div className="shopping-cart" title="shopping cart">
-            {" "}
-            <span className="material-icons navmtrl">shopping_cart</span>
+          <div className="favorites-item" title="favorite items">
+            <span className="material-icons navmtrl">store</span>
           </div>
           <div className="favorites-item" title="favorite items">
             <span className="material-icons navmtrl">favorite_border</span>
           </div>
+          <div className="shopping-cart" title="shopping cart">
+            <span className="material-icons navmtrl">shopping_cart</span>
+          </div>
+
           <div className="user-account" title="your account details">
             <span className="material-icons navmtrl">account_circle</span>
           </div>
@@ -47,4 +50,4 @@ function Header() {
   );
 }
 
-export default Header;
+export { Header };

@@ -1,9 +1,11 @@
-import HomePage from "../src/page/HomePage/HomePage";
+import { ProductCards } from "page/ProductListing/ProductCards";
+// import HomePage from "../src/page/HomePage/HomePage";
 
 function App() {
   return (
     <div>
-      <HomePage />
+      {/* <HomePage /> */}
+      <ProductCards />
     </div>
   );
 }
