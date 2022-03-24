@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import Hero from "../../components/OtherMiscCards/Hero";
 import DescCards from "../../components/OtherMiscCards/DescCards";
 import FeaturedBrans from "../../components/OtherMiscCards/FeaturedBrans";
+// import { index } from "../../components/index";
 function HomePage() {
   return (
     <div>

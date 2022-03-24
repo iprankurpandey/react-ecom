@@ -4,16 +4,16 @@ import "./FeaturedBrans.css";
 function FeaturedBrans() {
   return (
     <div>
-      <div class="featured-brands">
-        <div class="h1">Featured Brands</div>
+      <div className="featured-brands">
+        <div className="h1">Featured Brands</div>
       </div>
-      <div class="brand-choice">
-        <div class="first-brand brand-logo"> P&G</div>
-        <div class="second-brand brand-logo">IFFCO</div>
-        <div class="third-brand brand-logo">NABARD</div>
-        <div class="fourth-brand brand-logo">Patanjali</div>
-        <div class="fifth-brand brand-logo"> Syngeta</div>
-        <div class="sixth-brand brand-logo">BAYER</div>
+      <div className="brand-choice">
+        <div className="first-brand brand-logo"> P&G</div>
+        <div className="second-brand brand-logo">IFFCO</div>
+        <div className="third-brand brand-logo">NABARD</div>
+        <div className="fourth-brand brand-logo">Patanjali</div>
+        <div className="fifth-brand brand-logo"> Syngeta</div>
+        <div className="sixth-brand brand-logo">BAYER</div>
       </div>
     </div>
   );

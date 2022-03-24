@@ -3,43 +3,43 @@ import "./Header.css";
 function Header() {
   return (
     <div>
-      <nav class="navigation-menu">
-        <div class="left-side-panel" title="menu-item">
-          <div class="menu">
+      <nav className="navigation-menu">
+        <div className="left-side-panel" title="menu-item">
+          <div className="menu">
             {" "}
-            <span class="material-icons navmtrl">menu</span>
+            <span className="material-icons navmtrl">menu</span>
           </div>
           <img
             src="https://i.ibb.co/BwmMLhj/logo.png"
             alt="logo"
-            class="logo-icon-head"
+            className="logo-icon-head"
           />
-          <span class="home">
-            <span class="material-icons navmtrl">home</span>
+          <span className="home">
+            <span className="material-icons navmtrl">home</span>
           </span>
         </div>
 
-        <div class="search-panel" title="search items">
+        <div className="search-panel" title="search items">
           <input
             type="search"
             name="search"
             id="search"
             placeholder="search items"
-            class="input-in-input"
+            className="input-in-input"
           />
-          <button class="btn btn-primary-outline">Login</button>
+          <button className="btn btn-primary-outline">Login</button>
         </div>
 
-        <div class="right-side-panel">
-          <div class="shopping-cart" title="shopping cart">
+        <div className="right-side-panel">
+          <div className="shopping-cart" title="shopping cart">
             {" "}
-            <span class="material-icons navmtrl">shopping_cart</span>
+            <span className="material-icons navmtrl">shopping_cart</span>
           </div>
-          <div class="favorites-item" title="favorite items">
-            <span class="material-icons navmtrl">favorite_border</span>
+          <div className="favorites-item" title="favorite items">
+            <span className="material-icons navmtrl">favorite_border</span>
           </div>
-          <div class="user-account" title="your account details">
-            <span class="material-icons navmtrl">account_circle</span>
+          <div className="user-account" title="your account details">
+            <span className="material-icons navmtrl">account_circle</span>
           </div>
         </div>
       </nav>

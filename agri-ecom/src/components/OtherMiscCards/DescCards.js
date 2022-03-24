@@ -4,14 +4,14 @@ import "./DescCards.css";
 function DescCards() {
   return (
     <div>
-      <div class="featured-catagories">
-        <div class="h1">Featured Catagories</div>
+      <div className="featured-catagories">
+        <div className="h1">Featured Catagories</div>
       </div>
-      <div class="catagory-choice">
-        <div class="first-catagory box"> Machine</div>
-        <div class="second-catagory box">Pesticides</div>
-        <div class="third-catagory box">Seeds</div>
-        <div class="fourth-catagory box">Fertilizers</div>
+      <div className="catagory-choice">
+        <div className="first-catagory box"> Machine</div>
+        <div className="second-catagory box">Pesticides</div>
+        <div className="third-catagory box">Seeds</div>
+        <div className="fourth-catagory box">Fertilizers</div>
       </div>
     </div>
   );
