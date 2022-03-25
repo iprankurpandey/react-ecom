@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.horizontalline {
+  border-left: 1px solid var(--universal-border-color);
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -5rem;
+  top: 15%;
+}
+
+.invoice {
+  height: 22rem;
+  width: 20rem;
+  background-color: var(--badge-away-color);
+  border-radius: 10px;
+  margin: 0.5rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  bottom: 30rem;
+  left: 36rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.price-item,
+.discount-item,
+.charges-item,
+.total-amount,
+.total-save {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+}
