@@ -5,3 +5,6 @@ export { DescCards } from "./OtherMiscCards/DescCards";
 export { FeaturedBrans } from "./OtherMiscCards/FeaturedBrans";
 export { ItemCard } from "./Produclisting/ItemCard";
 export { SideBarFilter } from "./SidebarFilter/SideBarFilter";
+export { Login } from "./Login/Login";
+export { SignUp } from "./Signup/SignUp";
+export { CartManager } from "./CartManager/CartManager";
