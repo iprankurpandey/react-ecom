@@ -1,4 +1,4 @@
-import { ProductCards } from "page/ProductListing/ProductCards";
+import { ProductCards } from "./page/ProductListing/ProductCards";
 // import HomePage from "../src/page/HomePage/HomePage";
 
 function App() {
