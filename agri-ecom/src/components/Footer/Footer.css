@@ -7,6 +7,9 @@
   height: 6rem;
   background-color: silver;
   width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 .social-media-links {
   display: flex;
@@ -21,7 +24,4 @@
 
 .fa {
   margin: 0.5rem;
-}
-.search-panel {
-  display: flex;
 }

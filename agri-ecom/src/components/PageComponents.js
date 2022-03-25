@@ -3,7 +3,7 @@ export { Footer } from "./Footer/Footer";
 export { Hero } from "./OtherMiscCards/Hero";
 export { DescCards } from "./OtherMiscCards/DescCards";
 export { FeaturedBrans } from "./OtherMiscCards/FeaturedBrans";
-export { ItemCard } from "./Produclisting/ItemCard";
+export { ItemCards } from "./Produclisting/ItemCards";
 export { SideBarFilter } from "./SidebarFilter/SideBarFilter";
 export { Login } from "./Login/Login";
 export { SignUp } from "./Signup/SignUp";

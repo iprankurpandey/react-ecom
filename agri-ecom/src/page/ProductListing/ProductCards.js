@@ -2,7 +2,7 @@ import {
   Header,
   Footer,
   SideBarFilter,
-  ItemCard,
+  ItemCards,
 } from "../../components/PageComponents";
 
 function ProductCards() {
@@ -10,7 +10,7 @@ function ProductCards() {
     <div>
       <Header />
       <SideBarFilter />
-      <ItemCard />
+      <ItemCards />
       <Footer />
     </div>
   );

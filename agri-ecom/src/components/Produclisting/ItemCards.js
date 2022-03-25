@@ -1,6 +1,6 @@
 import React from "react";
-import "./ProductCard.css";
-function ItemCard() {
+import "./ItemCards.css";
+function ItemCards() {
   return (
     <div>
       <div className="vcard card-with-shadow">
@@ -33,4 +33,4 @@ function ItemCard() {
   );
 }
 
-export { ItemCard };
+export { ItemCards };
