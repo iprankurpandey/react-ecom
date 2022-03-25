@@ -1,9 +1,11 @@
-import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header";
-import Hero from "../../components/OtherMiscCards/Hero";
-import DescCards from "../../components/OtherMiscCards/DescCards";
-import FeaturedBrans from "../../components/OtherMiscCards/FeaturedBrans";
-// import { index } from "../../components/index";
+import {
+  Header,
+  Hero,
+  DescCards,
+  FeaturedBrans,
+  Footer,
+} from "../../components/PageComponents";
+
 function HomePage() {
   return (
     <div>

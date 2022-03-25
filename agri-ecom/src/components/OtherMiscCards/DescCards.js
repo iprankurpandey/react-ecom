@@ -17,4 +17,4 @@ function DescCards() {
   );
 }
 
-export default DescCards;
+export { DescCards };

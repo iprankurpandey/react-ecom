@@ -19,4 +19,4 @@ function FeaturedBrans() {
   );
 }
 
-export default FeaturedBrans;
+export { FeaturedBrans };
