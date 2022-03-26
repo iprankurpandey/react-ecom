@@ -14,7 +14,7 @@
   height: 100%;
   position: absolute;
   left: 50%;
-  margin-left: -5rem;
+  margin-left: 0rem;
   top: 15%;
 }
 
@@ -28,7 +28,7 @@
   position: fixed;
   flex-direction: column;
   top: 5rem;
-  right: 12rem;
+  right: 34rem;
   padding: 1rem;
   justify-content: center;
 }
@@ -42,4 +42,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.2rem;
+}
+
+.main-conatiner-part {
+  display: flex;
+  justify-content: space-between;
 }

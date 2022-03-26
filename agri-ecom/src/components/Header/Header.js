@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
+import LoginPage from "../../page/Login/LoginPage";
 function Header() {
   return (
     <div>
@@ -27,7 +29,7 @@ function Header() {
             placeholder="search items"
             className="input-in-input"
           />
-          <button className="btn btn-primary-outline">Login</button>
+          <button className="btn btn-primary-outline">Login</button>{" "}
         </div>
 
         <div className="right-side-panel">

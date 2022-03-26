@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: auto;
+  /* padding: auto; */
   background-color: var(--silver-color);
   box-shadow: 0px 0px 10px var(--silver-color);
   text-align: center;
@@ -34,4 +34,11 @@
   font-weight: bold;
   color: var(--dark-black-color);
   margin-bottom: 1rem;
+}
+.login-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+  padding: auto;
 }

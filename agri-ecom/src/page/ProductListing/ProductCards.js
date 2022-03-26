@@ -16,4 +16,4 @@ function ProductCards() {
   );
 }
 
-export { ProductCards };
+export default ProductCards;
