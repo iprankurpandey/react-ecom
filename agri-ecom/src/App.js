@@ -1,8 +1,8 @@
-// import CartManagerItems from "page/CartManager/CartManagerItems";
+import CartManagerItems from "page/CartManager/CartManagerItems";
 // import HomePage from "page/HomePage/HomePage";
 import LoginPage from "page/Login/LoginPage";
 // import ProductCards from "page/ProductListing/ProductCards";
-// import SignupPage from "page/Signup/SignupPage";
+import SignupPage from "page/Signup/SignupPage";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import {
 //   Header,
@@ -27,9 +27,9 @@ function App() {
 
       {/* <HomePage /> */}
       {/* <ProductCards /> */}
-      <LoginPage />
+      {/* <LoginPage /> */}
       {/* <SignupPage /> */}
-      {/* <CartManagerItems /> */}
+      <CartManagerItems />
     </div>
   );
 }

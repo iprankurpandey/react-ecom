@@ -6,45 +6,45 @@ function SignUp() {
     <div>
       <div class="signup-form">
         <div class="signup-text-head">Signup Page</div>
-        <form>
-          <input
-            class="input-in-input"
-            type="text"
-            name="name"
-            value=""
-            placeholder="Name"
-            required
-          />
 
-          <input
-            class="input-in-input"
-            type="email"
-            name="email"
-            value=""
-            placeholder="Email"
-            required
-          />
+        <input
+          class="input-in-input"
+          type="text"
+          name="name"
+          value=""
+          placeholder="Name"
+          required
+        />
 
-          <input
-            class="input-in-input"
-            type="password"
-            name="input password"
-            placeholder="Password"
-            required
-            minlength="6"
-          />
+        <input
+          class="input-in-input"
+          type="email"
+          name="email"
+          value=""
+          placeholder="Email"
+          required
+        />
 
-          <input
-            class="input-in-input"
-            type="password"
-            name="input password"
-            placeholder="Retype Password"
-            required
-            minlength="6"
-          />
+        <input
+          class="input-in-input"
+          type="password"
+          name="input password"
+          placeholder="Password"
+          required
+          minlength="6"
+        />
 
-          <input type="submit" id="input-submit" name="input submit" required />
-        </form>
+        <input
+          class="input-in-input"
+          type="password"
+          name="input password"
+          placeholder="Retype Password"
+          required
+          minlength="6"
+        />
+
+        <input type="submit" id="input-submit" name="input submit" required />
+
         <label for="input-submit"> </label>
         <div class="login-info">
           Already registered?{" "}

@@ -1,8 +1,14 @@
 @import "https://agri-component.netlify.app/css/components.css";
+
 * {
   margin: 0;
   padding: 0;
 }
+
+.horizontal-card {
+  margin: 0.5rem;
+}
+
 .horizontalline {
   border-left: 1px solid var(--universal-border-color);
   height: 100%;
@@ -13,16 +19,16 @@
 }
 
 .invoice {
-  height: 22rem;
+  height: 26rem;
   width: 20rem;
   background-color: var(--badge-away-color);
   border-radius: 10px;
   margin: 0.5rem;
   display: flex;
-  position: relative;
+  position: fixed;
   flex-direction: column;
-  bottom: 30rem;
-  left: 36rem;
+  bottom: 25rem;
+  left: 18rem;
   padding: 1rem;
   justify-content: center;
 }
