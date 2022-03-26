@@ -1,4 +1,4 @@
-import { ItemCard } from "../Produclisting/ItemCard";
+import { ItemCards } from "../Produclisting/ItemCards";
 import "./SideBarFilter.css";
 
 function SideBarFilter() {
@@ -48,7 +48,7 @@ function SideBarFilter() {
           <input type="checkbox" name="" id="" />
           Vaidyanath <br />
         </nav>
-        <ItemCard />
+        <ItemCards />
       </div>
     </div>
   );

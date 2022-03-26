@@ -10,4 +10,7 @@
 
 nav.navigation-menu {
   background-color: #9ede73;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }

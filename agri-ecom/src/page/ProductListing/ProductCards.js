@@ -1,14 +1,19 @@
-import { Header, Footer, SideBarFilter } from "../../components/PageComponents";
+import {
+  Header,
+  Footer,
+  SideBarFilter,
+  ItemCards,
+} from "../../components/PageComponents";
 
 function ProductCards() {
   return (
     <div>
       <Header />
       <SideBarFilter />
-      {/* <ItemCard /> */}
+      <ItemCards />
       <Footer />
     </div>
   );
 }
 
-export { ProductCards };
+export default ProductCards;
